@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'KG Life is Messy';
+    src: url('KGLifeisMessy.woff2') format('woff2'),
+        url('KGLifeisMessy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Super Cereal';
+    src: url('SuperCereal.woff2') format('woff2'),
+        url('SuperCereal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body, html {
+	background-color: #FAB9B8;
+}
+
+.lim {
+	font-family: 'KG Life is Messy';
+}
+
+.sc {
+    font-family: 'Super Cereal';
+}
+
+.logo {
+	background-image: url('../img/logo.png');
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: auto;
+    display: block;
+	max-height: 600px;
+	height: 30vw;
+}
